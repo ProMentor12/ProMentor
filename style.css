@@ -59,10 +59,7 @@
       transform: scale(1);
       opacity: 1;
   }
-  .start{
-    justify-content: center;
-    align-items: center;
-  }
+
   .parallax{
       position: relative;
       display: flex;
@@ -80,13 +77,18 @@
       color: #1b283a;
       text-shadow: 2px 4px 5px #f9f9f9;
   }
+  .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
   .get_start{
     text-decoration: none;
     background-color: #1b283a;
     color: white;
     padding: 15px 15px;
-    margin: auto;
     border-radius: 10px;
     font-size: 25px;
     font-family: Copperplate Gothic;
@@ -94,4 +96,6 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
+    display: inline-block;
+    margin-top: -200px;
     }
